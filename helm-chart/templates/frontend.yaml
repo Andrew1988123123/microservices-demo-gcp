@@ -52,7 +52,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: 74734589924/frontend:v1
+          image: 74734589924/frontend
           ports:
           - containerPort: 8080
           readinessProbe:
