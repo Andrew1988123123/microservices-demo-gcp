@@ -140,7 +140,7 @@ spec:
     app: {{ .Values.frontend.name }}
   ports:
   - name: http
-    port: 80
+    port: 82
     targetPort: 8080
 {{- end }}
 {{- if .Values.networkPolicies.create }}
