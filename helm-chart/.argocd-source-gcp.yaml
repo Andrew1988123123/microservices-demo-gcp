@@ -1,8 +1,8 @@
 helm:
   parameters:
   - name: image.name
-    value: docker.io/74734589924/frontend
+    value: 74734589924/frontend
     forcestring: true
   - name: image.tag
-    value: v3
+    value: latest@sha256:def487c416e7e2160c31a5810e3df021b33dfd4db85fffad95f4267790fcb8b3
     forcestring: true
