@@ -1,7 +1,7 @@
 helm:
   parameters:
   - name: frontend.image.repo
-    value: 74734589924/frontend
+    value: docker.io/74734589924/frontend
     forcestring: true
   - name: frontend.image.tag
     value: v3
