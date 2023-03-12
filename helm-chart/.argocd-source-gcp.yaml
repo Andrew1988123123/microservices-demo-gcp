@@ -1,8 +1,8 @@
 helm:
   parameters:
-  - name: image.repo
+  - name: frontend.image.repo
     value: 74734589924/frontend
     forcestring: true
-  - name: image.tag
+  - name: frontend.image.tag
     value: v3
     forcestring: true
