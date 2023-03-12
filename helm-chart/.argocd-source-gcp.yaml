@@ -4,5 +4,5 @@ helm:
     value: docker.io/74734589924/frontend
     forcestring: true
   - name: frontend.image.tag
-    value: v3
+    value: "6"
     forcestring: true
