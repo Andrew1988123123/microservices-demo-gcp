@@ -4,5 +4,5 @@ helm:
     value: 74734589924/frontend
     forcestring: true
   - name: image.tag
-    value: "1.5"
+    value: v3
     forcestring: true
