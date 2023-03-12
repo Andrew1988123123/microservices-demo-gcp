@@ -1,7 +1,8 @@
 # Default values for onlineboutique.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
+global:
+  registry: ''
 images:
   repository: gcr.io/google-samples/microservices-demo
   # Overrides the image tag whose default is the chart appVersion.
@@ -67,6 +68,9 @@ emailService:
 
 frontend:
   create: true
+  image:
+      repo: 74734589924/frontend
+      tag: v1
   name: frontend
   externalService: true
   cymbalBranding: false

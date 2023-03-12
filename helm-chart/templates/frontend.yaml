@@ -52,7 +52,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: 74734589924/frontend:v1
+          image: {{if .Values.global.registry}}{{ .Values.global.registry }}/{{end}}{{ .Values.frontend.image.repo }}:{{ .Values.frontend.image.tag }}
           ports:
           - containerPort: 8080
           readinessProbe:
