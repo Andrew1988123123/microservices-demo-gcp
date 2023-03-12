@@ -4,5 +4,5 @@ helm:
     value: 74734589924/frontend
     forcestring: true
   - name: image.tag
-    value: latest@sha256:def487c416e7e2160c31a5810e3df021b33dfd4db85fffad95f4267790fcb8b3
+    value: "1.5"
     forcestring: true
